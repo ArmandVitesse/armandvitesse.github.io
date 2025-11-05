@@ -1,11 +1,14 @@
 const translations = {
     fr: {
-        site_title: "Mon Site",
         nav_home: "Accueil",
         nav_program: "Programme",
         nav_contact: "Contact",
         home_title: "Bienvenue sur notre site",
-        home_text: "Nous sommes ravis de vous accueillir sur notre plateforme. Notre mission est de vous offrir des services de qualité exceptionnelle et une expérience utilisateur incomparable. Avec des années d'expertise dans notre domaine, nous nous engageons à répondre à vos besoins avec professionnalisme et dévouement. Découvrez nos programmes innovants et n'hésitez pas à nous contacter pour toute question ou demande d'information.",
+        home_text1: "Situé au 18 square Louis Armand à Rennes, le local Armand Vitesse est un lieu autogéré de bricolage, d’auto-réparation, de création et d'auto-formation. On est situés dans un garage mis à disposition gratuitement, on fonctionne sur le prix libre et le lieu est géré par les gens qui le font vivre (on est pas une association).",
+        home_text2: "On est dans une démarche d’entraide pour que les gens qui ont pas trop de moyens puissent réparer leurs affaires (vélo, électronique, téléphone, PC, couture...). On a aussi envie d’être dans un partage de connaissances, d’apprendre des trucs, dans un espace convivial et bienveillant (menuiserie, goûter,...). On a envie de renforcer la solidarité entre nous parce que ça donne à tout le monde grave de la force.",
+        home_text3: "🫶 La volonté des personnes qui lancent le projet est de faire en sorte que cet espace soit ouvert et que tout le monde s’y sente la/le bienvenu.e. On essaie de faire attention à nos postures et attitudes pour pas reproduire ici ce qui nous fout la rage partout ailleurs (racisme, sexisme, validisme, et toutes les oppressions).",
+        home_text4: "💬 Si tu as envie de t’investir dans le projet, de proposer un atelier (que ce soit du dessin, un atelier de français ou tout ce que tu veux), de venir participer aux évènements ou de juste boire un café, tu es la/le bienvenu.e !",
+        home_text5: "A très vite à Armand Vitesse 💖",
         program_title: "Nos Programmes",
         program1_title: "Programme Débutant",
         program1_desc: "Idéal pour ceux qui commencent leur parcours. Ce programme comprend des modules d'initiation, un accompagnement personnalisé et des ressources adaptées à votre niveau.",
@@ -22,7 +25,6 @@ const translations = {
         success_message: "Merci ! Votre message a été envoyé avec succès."
     },
     en: {
-        site_title: "My Website",
         nav_home: "Home",
         nav_program: "Program",
         nav_contact: "Contact",
@@ -44,7 +46,6 @@ const translations = {
         success_message: "Thank you! Your message has been sent successfully."
     },
     es: {
-        site_title: "Mi Sitio",
         nav_home: "Inicio",
         nav_program: "Programa",
         nav_contact: "Contacto",
