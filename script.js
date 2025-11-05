@@ -3,7 +3,7 @@ const translations = {
         nav_home: "Accueil",
         nav_program: "Programme",
         nav_contact: "Contact",
-        home_title: "Bienvenue sur notre site",
+        home_title: "Bienvenue à Armand Vitesse !",
         home_text1: "Situé au 18 square Louis Armand à Rennes, le local Armand Vitesse est un lieu autogéré de bricolage, d’auto-réparation, de création et d'auto-formation. On est situés dans un garage mis à disposition gratuitement, on fonctionne sur le prix libre et le lieu est géré par les gens qui le font vivre (on est pas une association).",
         home_text2: "On est dans une démarche d’entraide pour que les gens qui ont pas trop de moyens puissent réparer leurs affaires (vélo, électronique, téléphone, PC, couture...). On a aussi envie d’être dans un partage de connaissances, d’apprendre des trucs, dans un espace convivial et bienveillant (menuiserie, goûter,...). On a envie de renforcer la solidarité entre nous parce que ça donne à tout le monde grave de la force.",
         home_text3: "🫶 La volonté des personnes qui lancent le projet est de faire en sorte que cet espace soit ouvert et que tout le monde s’y sente la/le bienvenu.e. On essaie de faire attention à nos postures et attitudes pour pas reproduire ici ce qui nous fout la rage partout ailleurs (racisme, sexisme, validisme, et toutes les oppressions).",
