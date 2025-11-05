@@ -1,10 +1,9 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Multilingue</title>
+    <title>Contact - Mon Site Multilingue</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -27,13 +26,22 @@
     </header>
 
     <main class="container">
-        <section class="hero">
-            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop" alt="Bureau moderne">
-            <h1 data-i18n="home_title">Bienvenue sur notre site</h1>
-            <p class="hero-text" data-i18n="home_text">
-                Nous sommes ravis de vous accueillir sur notre plateforme. Notre mission est de vous offrir des services de qualité exceptionnelle et une expérience utilisateur incomparable. Avec des années d'expertise dans notre domaine, nous nous engageons à répondre à vos besoins avec professionnalisme et dévouement. Découvrez nos programmes innovants et n'hésitez pas à nous contacter pour toute question ou demande d'information.
-            </p>
-        </section>
+        <h2 data-i18n="contact_title">Contactez-nous</h2>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+                <label for="name" data-i18n="form_name">Nom :</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" data-i18n="form_email">Email :</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message" data-i18n="form_message">Message :</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" data-i18n="form_submit">Envoyer</button>
+        </form>
     </main>
 
     <footer>

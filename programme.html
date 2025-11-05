@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme - Mon Site Multilingue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo" data-i18n="site_title">Mon Site</div>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
+                    <li><a href="programme.html" data-i18n="nav_program">Programme</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+                <div class="lang-switcher">
+                    <button class="lang-btn active" onclick="changeLanguage('fr')">FR</button>
+                    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+                    <button class="lang-btn" onclick="changeLanguage('es')">ES</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 data-i18n="program_title">Nos Programmes</h2>
+        <div class="program-grid">
+            <div class="program-card">
+                <h3 data-i18n="program1_title">Programme Débutant</h3>
+                <p data-i18n="program1_desc">
+                    Idéal pour ceux qui commencent leur parcours. Ce programme comprend des modules d'initiation, un accompagnement personnalisé et des ressources adaptées à votre niveau.
+                </p>
+            </div>
+            <div class="program-card">
+                <h3 data-i18n="program2_title">Programme Intermédiaire</h3>
+                <p data-i18n="program2_desc">
+                    Pour approfondir vos connaissances et développer vos compétences. Accédez à des cours avancés, des ateliers pratiques et un suivi régulier de votre progression.
+                </p>
+            </div>
+            <div class="program-card">
+                <h3 data-i18n="program3_title">Programme Expert</h3>
+                <p data-i18n="program3_desc">
+                    Le niveau ultime pour les professionnels confirmés. Bénéficiez d'un mentorat exclusif, de masterclasses et d'opportunités de networking premium.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2025 Mon Site. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
