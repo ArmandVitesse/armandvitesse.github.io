@@ -65,8 +65,18 @@ const translations = {
     }
 };
 
-// Charger la langue sauvegardée ou utiliser le français par défaut
-let currentLang = localStorage.getItem('language') || 'fr';
+// Si la langue du navigateur est supportée, alors changer la langue.
+// Sinon changer pour la dernière langue sauvegardée
+// Sinon français par défaut
+let currentLang = 'fr';
+if (localStorage.getItem('language')) {
+    currentLang = localStorage.getItem('language');
+}
+else if (Object.keys(translations).some((v) => {
+    return v.startsWith(navigator.language);
+})) {
+    currentLang = navigator.language;
+}
 
 // Initialiser la langue au chargement de la page
 document.addEventListener('DOMContentLoaded', function() {
