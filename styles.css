@@ -77,14 +77,15 @@ main {
 
 .hero {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .hero img {
-    max-width: 600px;
-    width: 100%;
+    max-width: 500px;
+    width: 15em;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -102,6 +103,7 @@ main {
     color: #555;
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 30px;
     text-align: justify;
     padding: 0 20px;
 }
