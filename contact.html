@@ -7,23 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo" data-i18n="site_title">Mon Site</div>
-                <ul class="nav-links">
-                    <li><a href="index.html" data-i18n="nav_home">Accueil</a></li>
-                    <li><a href="programme.html" data-i18n="nav_program">Programme</a></li>
-                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
-                </ul>
-                <div class="lang-switcher">
-                    <button class="lang-btn active" onclick="changeLanguage('fr')">FR</button>
-                    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
-                    <button class="lang-btn" onclick="changeLanguage('es')">ES</button>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <header id="header"></header>
 
     <main class="container">
         <h2 data-i18n="contact_title">Contactez-nous</h2>
@@ -51,5 +35,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="header.js"></script>
 </body>
 </html>
