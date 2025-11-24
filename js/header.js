@@ -48,7 +48,7 @@ function changeLanguage(lang, save = true) {
 }
 // Récupére les traductions stockées localement et affiche le résultat
 let translations = {};
-fetch("/traductions.json")
+fetch("/data/traductions.json")
   .then((response) => response.json())
   .then((data) => {
     translations = data;
