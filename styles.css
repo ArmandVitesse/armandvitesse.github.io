@@ -78,6 +78,8 @@ main {
 .hero {
     text-align: center;
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .hero img {
