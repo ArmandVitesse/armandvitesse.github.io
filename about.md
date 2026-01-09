@@ -2,6 +2,7 @@
 layout: default
 title: A propos
 permalink: /about/
+lang: fr
 ---
 
 Armand Vitesse est un **lieu autogéré de bricolage, d’auto-réparation, de création et d’auto-formation**. Le local se trouve dans le garage d’une maison, mis à disposition gratuitement. Tout est à prix libre. Le lieu est **animé par toutes les personnes qui le souhaitent**, bénévolement. Armand Vitesse n’est pas une association.

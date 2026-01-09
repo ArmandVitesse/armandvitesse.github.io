@@ -85,21 +85,12 @@ translate_langs:
     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
     text: French
 
-  - lang: zh-CN
-    img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-    text: Chinese(Simple)
-
-  - lang: ja
-    img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-    text: Japanese
-
-  - lang: ko
-    img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-    text: Korean
-
-  - lang: ru
-    img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-    text: Russian
+# Polyglot plugin
+# Français, Anglais, Serbe, Portugal, Russe, Maori, Roumain, Albanais, Géorgien
+languages: ["fr", "en", "sr", "pt_PT", "ru", "mi", "ro", "sq", "ka"]
+default_lang: "fr"
+exclude_from_localization: ["javascript", "images", "css", "public", "sitemap"]
+parallel_localization: true
 
 # You can choose a theme color
 # Default theme colors as below:
@@ -249,6 +240,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-minifier
+  - jekyll-polyglot
 
 # Exclude from processing.
 # The following items will not be processed, by default.
