@@ -34,3 +34,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Custom jekyll theme
 gem "jekyll-remote-theme", group: :jekyll_plugins
+
+# Minify html
+gem 'jekyll-minifier', '~> 0.1.10'

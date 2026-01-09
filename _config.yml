@@ -176,8 +176,8 @@ banner:
   background: "#9e2b2bcc"  # Banner background (Could be a image)
   height: "20em"         # Banner default height
   min_height: null        # Banner minimum height
-  heading_style: "backdrop-filter: blur(30px)"     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
-  subheading_style: "backdrop-filter: blur(30px)"  # Custom subheading style (e.g. color: gold)
+  heading_style: "backdrop-filter: blur(30px); font-family: 'Permanent Marker', cursive; font-weight: 400; font-style: normal;"     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
+  subheading_style: "backdrop-filter: blur(30px); font-family: 'Bangers', system-ui; font-weight: 400; font-style: normal;"  # Custom subheading style (e.g. color: gold)
 
 # Excerpt settings
 # excerpt:
@@ -244,7 +244,7 @@ kramdown:
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
