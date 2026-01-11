@@ -1,19 +1,12 @@
 # Installation pour le développement
 ```bash
-# Installation de ruby
-sudo apt install ruby
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+# Installation de hugo
+curl -sLO https://github.com/gohugoio/hugo/releases/download/v0.154.4/hugo_extended_0.154.4_linux-amd64.deb 
+sudo dpkg -i hugo_extended_0.154.4_linux-amd64.deb 
 
-# Installation de Bundler qui gère les dépendances du projet
-gem install bundler
-# Installation de jekyll qui gère la génération du site
-gem install jekyll 
+# Installation des modules
+hugo mod tidy
 
-# Installation des dépendances du projet
-bundle install 
-
-# Lancement du site internet
-bundle exec jekyll serve
+# Lancement du serveur
+hugo server
 ```
