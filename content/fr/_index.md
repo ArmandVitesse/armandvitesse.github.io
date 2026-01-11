@@ -1,6 +1,7 @@
 ---
-title: My Site
 toc: false
+layout: home
+title: Armand Vitesse
 ---
 
-Accueil fr
+Accueil

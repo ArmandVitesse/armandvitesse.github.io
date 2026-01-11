@@ -29,15 +29,20 @@ menu:
       weight: 2
       identifier: programme
     - name: Contact
-      url: /contact
+      pageRef: /contact
       weight: 3
       identifier: contact
     - name: Language Switcher
       weight: 4
       params:
         type: language-switch
-        label: true
-        icon: "globe-alt"
+        label: false
+        icon: "translate"
+    - name: Theme Toggle
+      weight: 5
+      params:
+        type: theme-toggle
+        label: false # optional, default is false
 
 params:
   navbar:
@@ -51,12 +56,22 @@ params:
       height: 20
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
+    displayCopyright: true
+    displayPoweredBy: false
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  theme:
+    default: dark
+    displayToggle: true
+  
+  externalLinkDecoration: true
+  
+  # OpenGraph
+  images:
+    - "/logo.png"
 
 outputs:
   home: [html]
@@ -66,10 +81,11 @@ outputs:
 search:
   enable: false
 
+
 defaultContentLanguage: fr
 languages:
   fr:
-    languageName: French
+    languageName: Français
     contentDir: content/fr
     weight: 1
     title: Armand Vitesse
