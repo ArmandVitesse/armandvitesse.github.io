@@ -102,7 +102,7 @@ languages:
     weight: 1
     title: Armand Vitesse
 
-  pt_PT:
+  pt-PT:
     languageName: Português
     contentDir: content/pt
     weight: 1

@@ -1,7 +1,11 @@
 ---
 toc: false
-layout: home
-title: Armand Vitesse
+layout: wide
+Title: Armand Vitesse
 ---
 
-Accueil
+{{< cards >}}
+  {{< card link="/programme" title="Programme" icon="book-open" >}}
+  {{< card link="/about" title="C'est quoi ?" icon="question-mark-circle" >}}
+  {{< card link="/contact" title="Nous contacter" icon="arrow-right" >}}
+{{< /cards >}}
