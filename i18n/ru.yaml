@@ -2,7 +2,7 @@ backToTop: 'Прокрутить к началу'
 changeLanguage: 'Изменить язык'
 changeTheme: 'Изменить тему'
 copyCode: 'Скопировать код'
-copyright: '2025 Проект Hextra.'
+copyright: "Сгенерировано с помощью <a href='https://gohugo.io/' style='font-weight: bold'>Hugo</a> и <a href='https://github.com/imfing/hextra' style='font-weight: bold'>Hextra</a> темы"
 dark: 'Темная'
 editThisPage: 'Отредактировать страницу на GitHub →'
 lastUpdated: 'Последнее обновление'

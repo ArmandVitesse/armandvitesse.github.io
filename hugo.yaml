@@ -49,8 +49,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: /logo.png
-      dark: /logo.png
+      path: /img/armand_gif.gif
+      dark: /img/armand_gif.gif
       link: /
       width: 40
       height: 20

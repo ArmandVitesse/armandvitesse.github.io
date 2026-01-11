@@ -1,7 +1,7 @@
 backToTop: "Voltar ao topo"
 changeLanguage: "Mudar a língua"
 changeTheme: "Mudar tema"
-copyright: "© 2025 Projecto Hextra."
+copyright: "Gerado por <a href='https://gohugo.io/' style='font-weight: bold'>Hugo</a> e <a href='https://github.com/imfing/hextra' style='font-weight: bold'>Tema Hextra</a>"
 dark: "Escuro"
 editThisPage: "Edita esta página no GitHub →"
 lastUpdated: "Última modificação"
