@@ -114,12 +114,6 @@ languages:
     weight: 1
     title: Armand Vitesse
 
-  mi:
-    languageName: reo Māori
-    contentDir: content/mi
-    weight: 1
-    title: Armand Vitesse
-
   ro:
     languageName: Română
     contentDir: content/ro
