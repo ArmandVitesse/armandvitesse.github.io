@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: wide
-Title: Armand Vitesse
+title: Bienvenue sur le site d'Armand Vitesse !
 ---
 
 {{< cards >}}
