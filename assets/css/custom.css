@@ -18,10 +18,11 @@
 }
 
 body {
-  background-image: url("/img/flamme.png");
+  background-image: url("/img/flamme.webp");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: bottom
+  background-position-y: bottom;
+  background-position-x: center;
 }
 
 .content {
@@ -30,8 +31,12 @@ body {
   border-radius: 10px;
 }
 
+@font-face {
+  font-family: "Blazed";
+  src: url("/fonts/Blazed.ttf");
+}
 .custom-title {
-  font-family: "Rubik Glitch", system-ui;
+  font-family: "Blazed", system-ui;
   font-weight: 400;
   font-style: normal;
 }
