@@ -10,3 +10,5 @@ hugo mod tidy
 # Lancement du serveur
 hugo server
 ```
+
+Le site se déploie automatiquement avec github pages
