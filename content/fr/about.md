@@ -1,5 +1,5 @@
 ---
-title: C'est quoi ?
+title: Qu'est ce que c'est ?
 type: default
 ---
 
