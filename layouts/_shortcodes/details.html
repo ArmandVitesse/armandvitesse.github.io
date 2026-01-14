@@ -1,0 +1,40 @@
+{{- /*
+A built-in component to display a collapsible content.
+
+@param {string} title The title of the details.
+@param {string} closed Whether the details are closed or not (default: false).
+@param {string} icon Name of the icon to display left to the title (default: no icon)
+@param {string} icon_atttr Name of the icon to display left to the title (default: height=1em)
+
+@example {{% details title="Details" %}}Content{{% /details %}}
+*/ -}}
+
+{{- $title := .Get "title" | default "" -}}
+{{- $closed := eq (.Get "closed") "true" | default false -}}
+{{- $icon_name := .Get "icon" | default nil }}
+{{- $icon_attributes := .Get "icon_attr" | default "height=1em" }}
+
+<details class="hx:last-of-type:mb-0 hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-4 hx:group" {{ if not $closed }}open{{ end }}>
+  <summary class="hx:flex hx:items-center hx:cursor-pointer hx:select-none hx:list-none hx:p-1 hx:rounded-sm hx:transition-colors hx:hover:bg-gray-100 hx:dark:hover:bg-neutral-800 hx:before:mr-1 hx:before:inline-block hx:before:transition-transform hx:before:content-[''] hx:dark:before:invert hx:rtl:before:rotate-180 hx:group-open:before:rotate-90">
+    {{ with $icon_name }}
+        {{- $name := . -}}
+        {{- $icon := index site.Data.icons $name -}}
+
+        {{- if not $icon -}}
+        {{ errorf "icon %q not found" $name }}
+        {{- end -}}
+
+        {{- $icon = replaceRE "<svg" (printf "<svg %s" $icon_attributes) $icon -}}
+
+        <span class="hx:inline-block hx:align-text-bottom hextra-icon">
+        {{- $icon | safeHTML -}}
+    </span>
+    <strong class="hx:text-lg details-title">{{ $title | markdownify }}</strong>
+    {{ else }}
+<strong class="hx:text-lg">{{ $title | markdownify }}</strong>
+    {{ end }}
+  </summary>
+  <div class="hx:p-2 hx:overflow-hidden">
+    {{ .InnerDeindent | markdownify }}
+  </div>
+</details>

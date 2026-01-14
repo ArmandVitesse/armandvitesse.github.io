@@ -10,3 +10,8 @@ Il s’agit d’une démarche d’entraide, pour permettre aux personnes qui ont
 On aimerait que cet espace soit ouvert et que tout le monde s’y sente la•le bienvenu•e. On est vigileants quant à nos postures et attitudes pour ne pas reproduire ici ce qui nous fout la rage partout ailleurs (racisme, sexisme, validisme, et toutes les oppressions).
 
 Si tu as envie de participer à un atelier, en proposer un nouveau (dessin, langues, ou tout ce que tu veux !), ou juste boire un café en compagnie d’autres personnes, tu es la•le bienvenu•e ! A bientôt à Armand Vitesse !
+
+<br/>
+{{< cards >}}
+{{< card link="/contact" title="Nous trouver" icon="arrow-right" >}}
+{{< /cards >}}

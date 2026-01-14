@@ -81,6 +81,7 @@ outputs:
 search:
   enable: false
 
+enableInlineShortcodes: true
 
 defaultContentLanguage: fr
 languages:
