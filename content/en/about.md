@@ -1,5 +1,5 @@
 ---
-title: About
+title: What is it ?
 type: default
 ---
 
@@ -10,3 +10,8 @@ This initiative focuses on mutual aid, aimed at assisting individuals with limit
 We aim for this space to be inclusive and for everyone to feel invited. We remain attentive to our behaviors and attitudes to avoid replicating the injustices that anger us in other places (racism, sexism, ableism, and all forms of oppression).
 
 If you are interested in joining a workshop, suggesting a new one (such as drawing, languages, or any other topic you prefer!), or simply enjoying a coffee with others, you are warmly invited! Looking forward to seeing you soon at Armand Vitesse!
+
+<br/>
+{{< cards >}}
+{{< card link="/contact" title="Find us" icon="arrow-right" >}}
+{{< /cards >}}
