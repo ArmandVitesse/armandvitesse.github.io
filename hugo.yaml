@@ -120,7 +120,7 @@ languages:
     params:
       navbar:
         logo:
-          link: "/pt-PT/"
+          link: "/pt-pt/"
 
   ru:
     languageName: Русский язык

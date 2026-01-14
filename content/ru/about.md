@@ -13,5 +13,5 @@ type: default
 
 <br/>
 {{< cards >}}
-{{< card link="/contact" title="Nous trouver" icon="arrow-right" >}}
+{{< card link="/ru/contact" title="Найдите нас" icon="arrow-right" >}}
 {{< /cards >}}

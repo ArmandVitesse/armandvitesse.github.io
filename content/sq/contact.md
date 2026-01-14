@@ -3,7 +3,7 @@ title: Kontakti
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="Orari ynë i hapjes" icon="clock" >}}
+{{< card link="/sq/programme" title="Orari ynë i hapjes" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="Adresa" closed="true" icon="location-marker" %}}

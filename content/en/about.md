@@ -13,5 +13,5 @@ If you are interested in joining a workshop, suggesting a new one (such as drawi
 
 <br/>
 {{< cards >}}
-{{< card link="/contact" title="Find us" icon="arrow-right" >}}
+{{< card link="/en/contact" title="Find us" icon="arrow-right" >}}
 {{< /cards >}}

@@ -3,7 +3,7 @@ title: კონტაქტი
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="ჩვენი სამუშაო საათები" icon="clock" >}}
+{{< card link="/ka/programme" title="ჩვენი სამუშაო საათები" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="მისამართი" closed="true" icon="location-marker" %}}

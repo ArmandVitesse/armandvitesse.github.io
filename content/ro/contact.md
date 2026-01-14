@@ -3,7 +3,7 @@ title: Contact
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="Programul nostru de lucru" icon="clock" >}}
+{{< card link="/ro/programme" title="Programul nostru de lucru" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="Adresa" closed="true" icon="location-marker" %}}

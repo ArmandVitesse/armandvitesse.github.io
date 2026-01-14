@@ -3,7 +3,7 @@ title: Contato
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="O nosso horário de funcionamento" icon="clock" >}}
+{{< card link="/pt-pt/programme" title="O nosso horário de funcionamento" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="Endereço" closed="true" icon="location-marker" %}}

@@ -3,7 +3,7 @@ title: Contact us
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="Schedule" icon="clock" >}}
+{{< card link="/en/programme" title="Schedule" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="Location" closed="true" icon="location-marker" %}}

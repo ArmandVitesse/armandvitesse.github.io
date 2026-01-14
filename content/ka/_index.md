@@ -5,7 +5,7 @@ title: კეთილი იყოს თქვენი მობრძან�
 ---
 
 {{< cards >}}
-  {{< card link="/programme" title="პროგრამა" icon="book-open" >}}
-  {{< card link="/about" title="ეს რა არის?" icon="question-mark-circle" >}}
-  {{< card link="/contact" title="დაგვიკავშირდით" icon="arrow-right" >}}
+  {{< card link="/ka/programme" title="პროგრამა" icon="book-open" >}}
+  {{< card link="/ka/about" title="ეს რა არის?" icon="question-mark-circle" >}}
+  {{< card link="/ka/contact" title="დაგვიკავშირდით" icon="arrow-right" >}}
 {{< /cards >}}

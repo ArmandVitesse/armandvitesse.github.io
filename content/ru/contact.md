@@ -3,7 +3,7 @@ title: Контакт
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="Часы работы" icon="clock" >}}
+{{< card link="/ru/programme" title="Часы работы" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="Адрес" closed="true" icon="location-marker" %}}
