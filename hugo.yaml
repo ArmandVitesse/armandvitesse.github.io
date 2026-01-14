@@ -96,40 +96,69 @@ languages:
     contentDir: content/en
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/en/"
     
   sr:
     languageName: Српски
     contentDir: content/sr
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/sr/"
+    
 
   pt-PT:
     languageName: Português
-    contentDir: content/pt
+    contentDir: content/pt-PT
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/pt-PT/"
 
   ru:
     languageName: Русский язык
     contentDir: content/ru
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/ru/"
 
   ro:
     languageName: Română
     contentDir: content/ro
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/ro/"
 
   sq:
     languageName: Shqip
     contentDir: content/sq
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/sq/"
 
   ka:
     languageName: ქართული
     contentDir: content/ka
     weight: 1
     title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/ka/"
 
