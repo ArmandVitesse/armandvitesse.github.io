@@ -1,0 +1,11 @@
+---
+toc: false
+layout: wide
+title: Добро пожаловать на сайт Арманда Витесса!
+---
+
+{{< cards >}}
+  {{< card link="/programme" title="Программа" icon="book-open" >}}
+  {{< card link="/about" title="Что это ?" icon="question-mark-circle" >}}
+  {{< card link="/contact" title="Связаться с нами" icon="arrow-right" >}}
+{{< /cards >}}
