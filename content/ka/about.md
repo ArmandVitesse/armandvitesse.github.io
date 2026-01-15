@@ -13,5 +13,5 @@ type: default
 
 <br/>
 {{< cards >}}
-{{< card link="/ka/contact" title="გვიპოვეთ" icon="arrow-right" >}}
+{{< card link="/ka/contact" title="გვიპოვეთ" icon="map" >}}
 {{< /cards >}}

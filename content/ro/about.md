@@ -13,5 +13,5 @@ Dacă doriți să participați la un atelier, să propuneți unul nou (desen, li
 
 <br/>
 {{< cards >}}
-{{< card link="/ro/contact" title="Găsește-ne" icon="arrow-right" >}}
+{{< card link="/ro/contact" title="Găsește-ne" icon="map" >}}
 {{< /cards >}}

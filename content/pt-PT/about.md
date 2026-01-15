@@ -13,5 +13,5 @@ Se desejar participar de uma oficina, sugerir uma nova (desenho, idiomas ou qual
 
 <br/>
 {{< cards >}}
-{{< card link="/pt-pt/contact" title="Encontre-nos" icon="arrow-right" >}}
+{{< card link="/pt-pt/contact" title="Encontre-nos" icon="map" >}}
 {{< /cards >}}

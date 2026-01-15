@@ -13,5 +13,5 @@ Nëse dëshironi të merrni pjesë në një seminar, të propozoni një të ri (
 
 <br/>
 {{< cards >}}
-{{< card link="/sq/contact" title="Na gjeni" icon="arrow-right" >}}
+{{< card link="/sq/contact" title="Na gjeni" icon="map" >}}
 {{< /cards >}}

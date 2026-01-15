@@ -13,5 +13,5 @@ Si tu as envie de participer à un atelier, en proposer un nouveau (dessin, lang
 
 <br/>
 {{< cards >}}
-{{< card link="/contact" title="Nous trouver" icon="arrow-right" >}}
+{{< card link="/contact" title="Nous trouver" icon="map" >}}
 {{< /cards >}}
