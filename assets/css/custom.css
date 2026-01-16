@@ -19,8 +19,8 @@
 
 body {
   background-image: url("/img/flamme.webp");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: 30em;
+  background-repeat: repeat-x;
   background-position-y: bottom;
   background-position-x: center;
 }
