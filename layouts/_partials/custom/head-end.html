@@ -6,5 +6,3 @@
 {{ end -}}
 {{ $p := index (where .AllTranslations "Language.Lang" "en") 0 }}
 <link rel="alternate" href="{{ $p.Permalink }}" hreflang="x-default">
-
-<meta name="description" content='{{ .Summary | plainify }}'>
