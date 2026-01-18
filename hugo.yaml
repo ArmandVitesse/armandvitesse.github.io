@@ -18,6 +18,8 @@ markup:
   highlight:
     noClasses: false
 
+disableHugoGeneratorInject: true
+
 menu:
   main:
     - name: A propos

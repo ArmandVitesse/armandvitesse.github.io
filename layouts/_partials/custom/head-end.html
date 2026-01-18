@@ -1,1 +1,6 @@
-<!-- <link href="/fonts/Blazed.ttf" rel="stylesheet"> -->
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ range .Translations -}}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ end -}}
+{{ $p := index (where .AllTranslations "Language.Lang" "en") 0 }}
+<link rel="alternate" href="{{ $p.Permalink }}" hreflang="x-default">
