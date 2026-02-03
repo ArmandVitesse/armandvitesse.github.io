@@ -3,6 +3,8 @@ title: Armand Vitesse
 
 enableRobotsTXT: true
 
+publishDir: docs/
+
 # import hextra as module
 module:
   imports:
