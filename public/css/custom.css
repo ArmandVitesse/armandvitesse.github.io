@@ -1,0 +1,50 @@
+:root {
+  --primary-hue: 0deg;
+  --primary-saturation: 90%;
+  --primary-lightness: 50%;
+}
+
+.hextra-nav-container {
+  background-color: red;
+}
+
+.hextra-nav-container a {
+  font-weight: bold;
+}
+
+.hextra-max-footer-width {
+  padding: 0;
+  padding-bottom: 10px
+}
+
+body {
+  background-image: url("/img/flamme.webp");
+  background-size: 30em;
+  background-repeat: repeat-x;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.content {
+  backdrop-filter: blur(50px);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "Blazed";
+  src: url("/fonts/Blazed.ttf");
+}
+.custom-title {
+  font-family: "Blazed", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+details svg {
+  display: inline;
+}
+
+.details-title {
+  margin-left: 0.5em;
+}
