@@ -16,5 +16,5 @@ Soo bëggee bokk ci benn ateliye, sàkku beneen bu bees (nataal, làkk yi, walla
 
 <br/>
 {{< cards >}}
-{{< card link="/contact" title="Gis ñu" icon="map" >}}
+{{< card link="/wo/contact" title="Gis ñu" icon="map" >}}
 {{< /cards >}}

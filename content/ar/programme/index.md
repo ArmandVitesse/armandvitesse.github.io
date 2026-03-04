@@ -6,5 +6,5 @@ type: default
 ![](programme.png)
 
 {{< cards >}}
-{{< card link="/contact" title="تجدنا" icon="map" >}}
+{{< card link="/ar/contact" title="تجدنا" icon="map" >}}
 {{< /cards >}}

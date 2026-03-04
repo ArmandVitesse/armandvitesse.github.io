@@ -3,7 +3,7 @@ title: Jokkoo
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="Sunu waxtuy ubbi" icon="clock" >}}
+{{< card link="/wo/programme" title="Sunu waxtuy ubbi" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="Adres" closed="true" icon="location-marker" %}}

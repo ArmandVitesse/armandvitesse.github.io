@@ -17,7 +17,7 @@ title: مرحبًا بكم في موقع Armand Vitesse!
 </div>
 
 {{< cards >}}
-  {{< card link="/programme" title="البرنامج" icon="book-open" >}}
-  {{< card link="/about" title="ما هذا؟" icon="question-mark-circle" >}}
-  {{< card link="/contact" title="اتصل بنا" icon="arrow-right" >}}
+  {{< card link="/ar/programme" title="البرنامج" icon="book-open" >}}
+  {{< card link="/ar/about" title="ما هذا؟" icon="question-mark-circle" >}}
+  {{< card link="/ar/contact" title="اتصل بنا" icon="arrow-right" >}}
 {{< /cards >}}

@@ -3,7 +3,7 @@ title: اتصل بنا
 type: hextra-home
 ---
 {{< cards >}}
-{{< card link="/programme" title="أوقات عملنا" icon="clock" >}}
+{{< card link="/ar/programme" title="أوقات عملنا" icon="clock" >}}
 {{< /cards >}}
 
 {{% details title="العنوان" closed="true" icon="location-marker" %}}
