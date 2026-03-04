@@ -182,6 +182,7 @@ languages:
 
   ar:
     languageName: ٱلْعَرَبِيَّة
+    languageDirection: rtl
     contentDir: content/ar
     weight: 1
     title: Armand Vitesse
