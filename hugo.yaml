@@ -170,3 +170,32 @@ languages:
         logo:
           link: "/ka/"
 
+  wo:
+    languageName: wolof
+    contentDir: content/wo
+    weight: 1
+    title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/wo/"
+
+  ar:
+    languageName: ٱلْعَرَبِيَّة
+    contentDir: content/ar
+    weight: 1
+    title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/ar/"
+
+  es:
+    languageName: Español
+    contentDir: content/es
+    weight: 1
+    title: Armand Vitesse
+    params:
+      navbar:
+        logo:
+          link: "/es/"
